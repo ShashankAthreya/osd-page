@@ -176,7 +176,7 @@ button:focus {
 /* ========= BUTTON =========*/
 
 .mu-primary-btn {
-	background-color: transparent;
+	background-color: #000;
 	border-radius: 4px;
 	border: 2px solid #ffffff;
 	color: #fff;
@@ -232,9 +232,9 @@ button:focus {
 }
 
 .mu-hero-overlay {
-	display: inline;
+	display: inline-block;
 	float: left;
-	opacity: 0.94;
+	opacity: 1;
 	width: 100%;
 }
 
@@ -250,7 +250,7 @@ button:focus {
 	font-family: 'Montserrat', sans-serif;
 	display: inline-block;
 	font-weight: 600;
-	background: #fff;
+	background: transparent;
 	padding: 5px 20px;
 	margin-bottom: 30px;
 }
@@ -292,25 +292,26 @@ button:focus {
 	margin-top: 50px;
 	text-align: center;
 	width: 100%;
+	color: #000;
 }
 
 .mu-hero-featured-content h1 {
 	font-size: 45px;
-	color: #fff;
+	color: #000;
 	font-weight: 300;
 	margin-bottom: 15px;
 }
 
 
 .mu-hero-featured-content h2 {
-	color: #fff;
+	color: #000;
 	font-size: 25px;
 	font-weight: 300;
 }
 
 .mu-event-date-line {
-	background-color: #fff;
-	color: #333;
+	background-color: transparent;
+	color: #000;
 	padding: 5px 10px;
 	display: inline-block;
 	margin-top: 10px;
@@ -332,14 +333,13 @@ button:focus {
 }
 
 .mu-event-counter-block {
-	border: 2px solid #fff;
 	border-radius: 50%;
 	display: inline-block;
 	height: 180px;
 	width: 180px;
 	text-align: center;
 	font-size: 22px;
-	color: #fff;
+	color: #31636f;
 	margin: 0 20px;
 	font-weight: 300;
 }
